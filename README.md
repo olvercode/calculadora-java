@@ -3,7 +3,7 @@
 Proyecto de aprendizaje: una calculadora que evoluciona por versiones, desde una
 aplicación de consola hasta una interfaz gráfica de escritorio con Swing (MVC).
 
-## Versión actual: v1.0.0
+## Versión actual: v1.1.0
 
 Calculadora de consola con las cuatro operaciones básicas:
 
@@ -12,8 +12,7 @@ Calculadora de consola con las cuatro operaciones básicas:
 - Multiplicación
 - División
 
-> Esta versión no controla errores a propósito. Si se escribe una letra en lugar de
-> un número, el programa se detiene. El manejo de excepciones llega en la v1.1.0.
+Incluye manejo de excepciones: controla la entrada inválida y la división entre cero.
 
 ## Requisitos
 
@@ -50,7 +49,7 @@ calculadora/
 | Versión | Descripción |
 |---------|-------------|
 | v1.0.0  | Consola, 4 operaciones básicas |
-| v1.1.0  | Manejo de excepciones (próximamente) |
+| v1.1.0  | Manejo de excepciones |
 | v1.2.0  | Métodos (próximamente) |
 | v1.3.0  | POO (próximamente) |
 | v2.0.0  | Interfaz gráfica con Swing y MVC (próximamente) |
