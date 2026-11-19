@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.0 - 2026-11-18
+### Cambiado
+- Las operaciones se extrajeron a métodos: sumar, restar, multiplicar y dividir.
+- La excepción de división entre cero se lanza dentro del método dividir.
+- El comportamiento del programa no cambia.
+
 ## v1.1.0 - 17-11-2026
 ### Agregado
 - Manejo de excepciones con try-catch para entradas inválidas.
