@@ -29,7 +29,7 @@ Incluye manejo de excepciones: controla la entrada inválida y la división entr
 ### Desde la terminal
 
 ```bash
-javac -d out src/Main.java
+javac -d out src/*.Main.java
 java -cp out Main
 ```
 
@@ -39,6 +39,7 @@ java -cp out Main
 calculadora/
 ├── src/
 │   └── Main.java
+|   └── Operaciones.java
 ├── .gitignore
 ├── CHANGELOG.md
 └── README.md
@@ -47,11 +48,11 @@ calculadora/
 ## Versiones
 
 | Versión | Descripción |
-|---------|---------|
+|---------|-------|
 | v1.0.0  | Consola, 4 operaciones básicas |
 | v1.1.0  | Manejo de excepciones |
 | v1.2.0  | Métodos |
-| v1.3.0  | POO (próximamente) |
+| v1.3.0  | POO |
 | v2.0.0  | Interfaz gráfica con Swing y MVC (próximamente) |
 
 Cada versión está marcada con un tag en Git. Para ver el código exacto de una

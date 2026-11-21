@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0 - 20-11-2026
+### Cambiado
+- Los métodos de operaciones se movieron a la clase `Operaciones` (POO).
+- `Main` crea un objeto `Operaciones` y solo se encarga del menú y los datos.
+- El comportamiento del programa no cambia.
+
 ## v1.2.0 - 2026-11-18
 ### Cambiado
 - Las operaciones se extrajeron a métodos: sumar, restar, multiplicar y dividir.
