@@ -3,7 +3,7 @@
 Proyecto de aprendizaje: una calculadora que evoluciona por versiones, desde una
 aplicación de consola hasta una interfaz gráfica de escritorio con Swing (MVC).
 
-## Versión actual: v1.2.0
+## Versión actual: v1.3.0
 
 Calculadora de consola con las cuatro operaciones básicas:
 
